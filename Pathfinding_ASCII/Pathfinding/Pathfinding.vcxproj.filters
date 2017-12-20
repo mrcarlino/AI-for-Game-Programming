@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="BreadthFirstSearch.h" />
+    <ClInclude Include="GreedyBestFirst.h" />
+    <ClInclude Include="AStar.h" />
+    <ClInclude Include="Dijkstra.h" />
+    <ClInclude Include="PathHelper.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Pathfinding.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="BreadthFirstSearch.cpp" />
+    <ClCompile Include="GreedyBestFirst.cpp" />
+    <ClCompile Include="AStar.cpp" />
+    <ClCompile Include="Dijkstra.cpp" />
+    <ClCompile Include="PathHelper.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Content\Grid.grid">
+      <Filter>Content</Filter>
+    </None>
+    <None Include="Content\Grid2.grid">
+      <Filter>Content</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Content">
+      <UniqueIdentifier>{851625b2-c687-4384-a51e-27d1ef733d8f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
