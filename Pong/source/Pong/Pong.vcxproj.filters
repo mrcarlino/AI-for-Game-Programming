@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Ball.h" />
+    <ClInclude Include="PongGame.h" />
+    <ClInclude Include="Score.h" />
+    <ClInclude Include="Paddle.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Program.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Ball.cpp" />
+    <ClCompile Include="PongGame.cpp" />
+    <ClCompile Include="Score.cpp" />
+    <ClCompile Include="Paddle.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Content">
+      <UniqueIdentifier>{f9017ea1-ce6d-44aa-b125-0b927ece9c48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Textures">
+      <UniqueIdentifier>{d2559e5f-d776-4cd3-890e-b76c5ba9a1a0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Content\Textures\Ball.png">
+      <Filter>Content\Textures</Filter>
+    </Image>
+    <Image Include="Content\Textures\centerBar.png">
+      <Filter>Content\Textures</Filter>
+    </Image>
+    <Image Include="Content\Textures\Paddle.png">
+      <Filter>Content\Textures</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
